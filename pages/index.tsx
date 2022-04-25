@@ -24,9 +24,7 @@ const Index: NextPage = () => {
         </h1>
 
         <p className="p-2 text-md text-slate-600">
-          powered by <Link href="https://github.com/a24k/nextailp"><a>nextailp</a></Link>
-          -
-          a domain parking example based on <Link href="https://nextjs.org/"><a>Next.js</a></Link> & <Link href="https://tailwindcss.com/"><a>Tailwind CSS</a></Link>.
+          powered by <Link href="https://github.com/a24k/nextailp"><a>nextailp</a></Link> - a domain parking example based on <Link href="https://nextjs.org/"><a>Next.js</a></Link> & <Link href="https://tailwindcss.com/"><a>Tailwind CSS</a></Link>.
         </p>
       </main>
     </>
