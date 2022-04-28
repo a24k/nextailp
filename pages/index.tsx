@@ -16,17 +16,14 @@ const Index: NextPage = () => {
 
       <main>
 
-        <p>
-          {router.pathname}
-        </p>
+        <p>+ NOT IN SERVICE +</p>
 
-        <h1>
-          <Link href="https://nextailp.pages.dev"><a>nextailp.pages.dev</a></Link>
-        </h1>
+        <div className="card">
+          <h1><Link href="https://nextailp.pages.dev"><a>nextailp.pages.dev</a></Link></h1>
+          <h2>{router.pathname}</h2>
+        </div>
 
-        <p>
-          powered by <Link href="https://github.com/a24k/nextailp"><a>nextailp</a></Link> - a domain parking example based on <Link href="https://nextjs.org/"><a>Next.js</a></Link> & <Link href="https://tailwindcss.com/"><a>Tailwind CSS</a></Link>.
-        </p>
+        <p>powered by <Link href="https://github.com/a24k/nextailp"><a>nextailp</a></Link> - a domain parking example based on <Link href="https://nextjs.org/"><a>Next.js</a></Link> & <Link href="https://tailwindcss.com/"><a>Tailwind CSS</a></Link>.</p>
 
       </main>
     </>
