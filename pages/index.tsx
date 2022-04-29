@@ -7,7 +7,7 @@ const Index: NextPage = () => {
     <>
       <Head>
         <title>nextailp</title>
-        <meta name="description" content="a domain parking example based on Next.js & Tailwind CSS" />
+        <meta name="description" content="a domain parking example based on Next.js & Tailwind CSS." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
