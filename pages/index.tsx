@@ -5,12 +5,10 @@ import { useState } from 'react'
 import { useIsomorphicLayoutEffect } from 'usehooks-ts'
 
 const Index: NextPage = () => {
-  const [href, setHref] = useState<string>('https://nextailp.pages.dev/');
   const [host, setHost] = useState<string>('nextailp.pages.dev');
   const [path, setPath] = useState<string>('/');
 
   useIsomorphicLayoutEffect(() => {
-    setHref(window.location.href);
     setHost(window.location.host);
     setPath(window.location.pathname);
   });
@@ -28,7 +26,7 @@ const Index: NextPage = () => {
         <p>+ NOT IN SERVICE +</p>
 
         <div className="card">
-          <h1><Link href={href}><a>{host}</a></Link></h1>
+          <h1><Link href="/"><a>{host}</a></Link></h1>
           <h2>{path}</h2>
         </div>
 
