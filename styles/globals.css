@@ -13,26 +13,26 @@ main {
   @apply flex flex-col justify-center items-center;
 
   .card {
-    @apply p-16 max-w-screen-sm;
-    @apply rounded-xl;
+    @apply px-8 py-4 max-w-screen-sm;
+    @apply rounded-lg;
     @apply bg-white shadow-lg shadow-white/20;
 
     h1, h2 {
-      @apply my-2;
+      @apply my-1;
       @apply text-zinc-800 text-center;
     }
 
     h1 {
-      @apply text-4xl break-all;
+      @apply text-2xl break-all;
     }
 
     h2 {
-      @apply text-2xl truncate;
+      @apply text-base truncate;
     }
   }
 
   p {
-    @apply p-4;
-    @apply text-base text-zinc-500;
+    @apply p-2;
+    @apply text-xs text-zinc-500;
   }
 }
