@@ -1,12 +1,13 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState, useLayoutEffect } from 'react'
+import { useState } from 'react'
+import { useIsomorphicLayoutEffect } from 'usehooks-ts'
 
 const Index: NextPage = () => {
   const [url, setUrl] = useState<string>('/');
 
-  useLayoutEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     setUrl(document.URL);
   });
 
