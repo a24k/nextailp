@@ -27,7 +27,7 @@ main {
     }
 
     h2 {
-      @apply text-2xl truncate;
+      @apply text-2xl break-all;
     }
   }
 
