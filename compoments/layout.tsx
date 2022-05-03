@@ -1,4 +1,5 @@
 import type { ReactElement } from 'react'
+
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -18,7 +19,6 @@ const Layout = ({ host, path, children }: LayoutProps) => {
       </Head>
 
       <main>
-
         <p>+ NOT IN SERVICE +</p>
 
         <div className="card">
@@ -28,7 +28,6 @@ const Layout = ({ host, path, children }: LayoutProps) => {
         </div>
 
         <p>powered by <Link href="https://github.com/a24k/nextailp"><a>nextailp</a></Link> - a domain parking example based on <Link href="https://nextjs.org/"><a>Next.js</a></Link> & <Link href="https://tailwindcss.com/"><a>Tailwind CSS</a></Link>.</p>
-
       </main>
     </>
   )
