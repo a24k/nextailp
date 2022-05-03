@@ -29,6 +29,11 @@ main {
     h2 {
       @apply text-base truncate;
     }
+
+    p {
+      @apply my-1;
+      @apply text-xs text-zinc-800 text-justify;
+    }
   }
 
   p {
