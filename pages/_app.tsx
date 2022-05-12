@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
 
 import '../styles/globals.css'
-import Layout from '../compoments/layout'
+import Layout from '../components/layout'
 
 import { useState } from 'react'
 import { useIsomorphicLayoutEffect } from 'usehooks-ts'
