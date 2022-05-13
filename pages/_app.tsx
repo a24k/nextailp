@@ -7,7 +7,7 @@ import { useState } from 'react'
 import { useIsomorphicLayoutEffect } from 'usehooks-ts'
 
 function NextailpApp({ Component, pageProps }: AppProps) {
-  const [host, setHost] = useState<string>('                ');
+  const [host, setHost] = useState<string>('nextailp');
   const [path, setPath] = useState<string>('/');
 
   useIsomorphicLayoutEffect(() => {
