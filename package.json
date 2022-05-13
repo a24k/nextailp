@@ -1,6 +1,6 @@
 {
   "name": "nextailp",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "a domain parking example based on Next.js & Tailwind CSS.",
   "private": true,
   "scripts": {
