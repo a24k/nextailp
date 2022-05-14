@@ -21,7 +21,7 @@ const Layout = ({ host, path, children }: LayoutProps) => {
         <p>+ NOT IN SERVICE +</p>
 
         <div className={ (host === ' ') ? 'card opaque' : 'card' }>
-          <h1><Link href="/"><a>{host}</a></Link></h1>
+          <h1><Link href="/"><a>{ ( host === ' ' ) ? '\u00A0' : host }</a></Link></h1>
           { (path !== '/') && <h2>{path}</h2> }
           {children}
         </div>
