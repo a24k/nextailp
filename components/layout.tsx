@@ -13,7 +13,7 @@ const Layout = ({ host, path, children }: LayoutProps) => {
   return (
     <>
       <Head>
-        <title>{host}</title>
+        <title>{ (host === '') ? 'nextailp' : host }</title>
         <meta name="description" content="a domain parking example based on Next.js & Tailwind CSS." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
