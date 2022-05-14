@@ -16,7 +16,7 @@ main {
     @apply px-8 py-4 md:px-10 md:py-5 lg:px-12 lg:py-6 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg;
     @apply rounded-lg;
     @apply bg-white shadow-lg shadow-white/20;
-    @apply transition ease-in-out duration-500;
+    @apply transition ease-out duration-500;
 
     h1, h2 {
       @apply my-1;
@@ -35,6 +35,10 @@ main {
       @apply my-1;
       @apply text-xs md:text-sm lg:text-base text-zinc-800 text-justify;
     }
+  }
+
+  .opaque {
+    @apply opacity-0;
   }
 
   p {
