@@ -13,14 +13,14 @@ const Layout = ({ host, path, children }: LayoutProps) => {
   return (
     <>
       <Head>
-        <title>{ (host === '') ? 'nextailp' : host }</title>
+        <title>{ (host === ' ') ? 'nextailp' : host }</title>
         <meta name="description" content="a domain parking example based on Next.js & Tailwind CSS." />
       </Head>
 
       <main>
         <p>+ NOT IN SERVICE +</p>
 
-        <div className={ (host === '') ? 'card opaque' : 'card' }>
+        <div className={ (host === ' ') ? 'card opaque' : 'card' }>
           <h1><Link href="/"><a>{host}</a></Link></h1>
           { (path !== '/') && <h2>{path}</h2> }
           {children}
