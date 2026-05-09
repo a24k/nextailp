@@ -3,14 +3,13 @@ import type { AppProps } from 'next/app'
 import '../styles/globals.css'
 import Layout from '../components/layout'
 
-import { useState } from 'react'
-import { useIsomorphicLayoutEffect } from 'usehooks-ts'
+import { useEffect, useState } from 'react'
 
 function NextailpApp({ Component, pageProps }: AppProps) {
   const [host, setHost] = useState<string>(' ');
   const [path, setPath] = useState<string>('/');
 
-  useIsomorphicLayoutEffect(() => {
+  useEffect(() => {
     setHost(window.location.host);
     setPath(window.location.pathname);
   });
